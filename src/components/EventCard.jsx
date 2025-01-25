@@ -1,35 +1,24 @@
 import React from "react";
 import "./EventCard.css";
 import bg from "../assets/building.jpg";
+import logo from "../../public/logo.png";
 
 import { Link } from "react-router-dom";
 
 const Card = ({ index, event }) => {
-  const id = encodeURIComponent(event.EventName);
+  const id = encodeURIComponent(event.name);
   return (
-    <div className="card0 w-[90vw] max-w-[400px]">
+    <div className="card0 w-[80vw] max-w-[480px]"> {/* Increased width */}
       <div className="content0">
         <div className="back0">
-          <div
-            className="back-content0"
-            // style={{
-            //   backgroundImage: `url(${event.Poster})`,
-            //   objectFit: "fill",
-            // }}
-          >
-            {/* <svg
-              stroke="#ffffff"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 50 50"
-              height="50px"
-              width="50px"
-              fill="#ffffff"
-            >
-            </svg> */}
-            <img src={`${event.image}`} alt="" className="bg-contain p-2" />
-            <p className=" text-[#0d0c06] text-3xl font-bold absolute bottom-4 left-3 px-2 py-2 bg-opacity-35 backdrop-blur-lg rounded-lg">
-              {event.EventName}
+          <div className="back-content0">
+            <img
+              src={event.image}
+              alt="Event Logo"
+              className="w-full h-full object-contain"
+            />
+            <p className=" text-[#0d0c06] text-3xl font-bold absolute bottom-0 left-0 px-2 py-2 bg-opacity-35 backdrop-blur-lg rounded-lg">
+              {event.name}
             </p>
           </div>
         </div>
@@ -47,7 +36,7 @@ const Card = ({ index, event }) => {
             <div className="circle0" id="bottom"></div>
           </div>
           <div className="front-content0">
-            <strong className="badge0">{event.EventName}</strong>
+            <strong className="badge0">{event.name}</strong>
 
             <div className="description0">
               <div className="title0 flex-col">
@@ -64,7 +53,7 @@ const Card = ({ index, event }) => {
                   <Link to={`${event.rulebook}`} target="_blank">
                     <button
                       type="button"
-                      className="text-[#0d0c06] bg-gradient-to-r from-[#dad3a5] via-[#c9bc57] to-[#fbe10e] hover:bg-gradient-to-bl focus:outline-none font-medium rounded-lg text-xs text-center px-3 py-2"
+                      className="text-[#2c2c2c] bg-gradient-to-r from-[#D2691E] via-[#8B4513] to-[#CD853F] hover:bg-gradient-to-bl focus:outline-none font-medium rounded-lg text-xs text-center px-3 py-2"
                     >
                       View More
                     </button>
@@ -72,7 +61,7 @@ const Card = ({ index, event }) => {
                   <Link to={event?.registerLink}>
                     <button
                       type="button"
-                      className="text-[#0d0c06] bg-gradient-to-r from-[#dad3a5] via-[#c9bc57] to-[#fbe10e] hover:bg-gradient-to-bl focus:outline-none font-medium rounded-lg text-xs text-center px-3 py-2"
+                      className="text-[#2c2c2c] bg-gradient-to-r from-[#D2691E] via-[#8B4513] to-[#CD853F] hover:bg-gradient-to-bl focus:outline-none font-medium rounded-lg text-xs text-center px-3 py-2"
                     >
                       Register Now
                     </button>
@@ -102,15 +91,11 @@ const Card = ({ index, event }) => {
                     strokeWidth="1"
                     stroke="none"
                     fillRule="nonzero"
-                    fill="#20c997"
+                    fill="#8B4513"
                   >
-                    {/* <g transform="scale(8,8)">
-                      <path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path>
-                    </g> */}
                   </g>
                 </svg>
               </div>
-              {/* <p className="card-footer0">30 Mins &nbsp; | &nbsp; 1 Serving</p> */}
             </div>
           </div>
         </div>

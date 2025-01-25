@@ -1,7 +1,9 @@
+import srijan from "../assets/srijan__.png"
 export const cinemaEvents = [
   {
     name: "SRIJAN THROUGH MY LENS",
     registerLink: 'https://unstop.com/o/Sas8ti1?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       "Transform Moments into Art – Srijan is Your Stage, and Photography is Your Voice!”Join our Instagram Story Challenge to capture Srijan’s essence. Embrace the power of photography to express emotions beyond words and stand a chance to win exciting prizes. Let your camera speak, leaving a lasting impression. Seize the moment—your story deserves to be told!",
     rulebook:
@@ -10,6 +12,7 @@ export const cinemaEvents = [
   {
     name: "FOTORUSH",
     registerLink: 'https://unstop.com/o/786zWrC?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       " A Time-Based Photography Event is an exciting adventure that combines creativity, teamwork,quick thinking, and seeing the world through a new lens. Decode blurred images, find hidden locations, and recreate stunning frames in a race against time. Capture the thrill in this exciting race.Gear up for a day of fun.",
     rulebook:
@@ -18,7 +21,7 @@ export const cinemaEvents = [
   {
     name: "MANIPULATION WARS",
     registerLink: 'https://unstop.com/o/o3jyZaw?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image: '',
+    image:srijan ,
     description:
       "Step into the world of boundless creativity with the Live Photo Manipulation Contest, powered by Adobe Photoshop! Transform a curated set of stock images into a breathtaking masterpiece using only your artistic vision and Photoshop expertise. With no external images allowed, the challenge is to seamlessly blend visuals and craft an inspiring narrative. Push your boundaries, innovate fearlessly, and showcase your imagination and skill under pressure. Are you ready to unleash your creative potential?",
     rulebook:
@@ -27,6 +30,7 @@ export const cinemaEvents = [
   {
     name: "STORY-TELLER",
     registerLink: 'https://unstop.com/o/lNzBeRu?lb=R7BCeSFa&utm_medium=Share&utm_source=shortUrl',
+    image :"https://res.cloudinary.com/dr80y03u3/image/upload/v1737832986/story_teller_d1t5dq.png" ,
     description:
       "Lights, camera, creativity! Here's your chance to craft a story that could be the next cinematic hit. Whether it’s a heart-pounding thriller, an inspiring drama, or an unforgettable action-adventure, your narrative could soon be on the big screen. Step into the world of film and create the story that captivates audiences worldwide!",
     rulebook:
@@ -134,6 +138,7 @@ export const comedyEvents = [
   {
     name: "ISM’s GOT LATENT",
     registerLink: 'https://unstop.com/o/vuWSgE2?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       "Welcome to the zany world of “ISM’s Got Latent”, a one-of-a-kind talent show where the bizarre and unexpected take center stage! Inspired by the madness of India’s Got Talent, this is your chance to flaunt those quirky, hidden talents—whether it’s mimicking your over-dramatic pados wali bhabhi, belting out “Bol Na Aunty Aaun Kya”, or pulling off a funky lap dance! It’s all about entertaining the judges and audience with your offbeat skills, no matter how unconventional they are.Step into a rollercoaster of excitement, laughter, and jaw-dropping performances!",
     rulebook:
@@ -142,6 +147,7 @@ export const comedyEvents = [
   {
     name: "SAANP TANK",
     registerLink: 'https://unstop.com/o/zqZKb8e?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       "Introducing Season 2 of SAANP TANK, the ultimate fusion of entrepreneurship and comedy! In this side-splitting parody of legendary Shark Tank, teams step up to pitch absurd and impossible products to our panel of judges. With creativity leading the way,business meets pure hilarity. Keeping a straight face is not an option. Get ready for a rollercoaster of innovation,humour, staggering pitches in the most unpredictable entrepreneurial showdown!",
     rulebook:
@@ -198,6 +204,7 @@ export const literaryEvents = [
   {
     name: "FOLKTWIST",
     registerLink: 'https://unstop.com/o/Nkm98pA?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       'where imagination takes the director’s chair! "Ever dreamed of reshaping a movie’s ending? Here’s your chance to rewrite the script and create cinematic magic. Unleash your creativity, share bold ideas, and craft unforgettable twists with fellow movie enthusiasts. It’s not just an event; it’s your stage to reinvent stories and leave your mark. Join us for this thrilling journey and showcase your skills of storytelling with lots of fun included.',
     rulebook:
@@ -206,6 +213,7 @@ export const literaryEvents = [
   {
     name: "CORPORATE CRISES",
     registerLink: '#',
+    image:srijan ,
     description:
       "Ever encountered a corporate challenge that left you scratching your head? At this event, you'll tackle real-world issues like PR failures or budget constraints, collaborating with your team to propose practical solutions.In this high-energy, interactive session, you'll ruminate, revolutionize, and reignite solutions that will leave a lasting impact. So, are you ready to electrify the boardroom and showcase your inner maverick? Let's gear up for the Pitch Fest Showdown!",
     rulebook:
@@ -217,6 +225,7 @@ export const dramaEvents = [
   {
     name: "HOONKAAR",
     registerLink: 'https://unstop.com/o/z5jQyid?lb=R7BCeSFa&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       "Unleash the Roar!Step into a world where passion meets creativity,  With electrifying performances and gripping competitions,Join the revolution, embrace the spirit, and make your voice heard. It is the flagship event of ADC club and a vibrant celebration of innovation and energy, a space where Ideas come alive.Let your roar echo break the silence throughout the  time with Hoonkaar!",
     rulebook:
@@ -225,6 +234,7 @@ export const dramaEvents = [
   {
     name: "EKABHINAY",
     registerLink: 'https://unstop.com/o/UpeYJqd?lb=R7BCeSFa&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       "Step onto the stage of brilliance with ADC Club’s Ekabhinay, a celebration of solo acting talent!Let your performance echo the rhythm of creativity and flair. Unleash your creativity, performance speaks volume and leaves a lasting impression.One stage, one soul,Infinite Expressions! Let your voice create a magic,Join us and make the stage your canvas – it’s time to own the spotlight!",
     rulebook:
@@ -257,6 +267,7 @@ export const fashionEvents = [
   {
     name: "PARIDHAAN",
     registerLink: 'https://unstop.com/o/Z64Bls1?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       "PARIDHAAN invites all to step into a world where creativity knows no bounds and imagination takes center stage. Teams will channel their artistic vision into extraordinary costumes and performances, all crafted around a unique theme revealed to organizers before the event. The grand finale, ‘Beauty & Geeks,’ will present an exciting clash of glamour and intellect, where participants will redefine beauty and brains. With limitless creativity, teams will bring this captivating theme to life, blending elegance and intellect in a way that’s both bold and unforgettable.",
     rulebook:
@@ -265,6 +276,7 @@ export const fashionEvents = [
   {
     name: "CAMPUS PRINCESS",
     registerLink: 'https://unstop.com/p/campus-princess-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1362790',
+    image:srijan ,
     description:
       "Step onto a dynamic stage where your unique aura as a radiant queen in the making takes center stage. This competition celebrates individuality, offering a platform for contestants to showcase their charm, confidence, and self-assurance in a captivating display of talent.",
     rulebook:
@@ -285,6 +297,7 @@ export const fineartsEvents = [
   {
     name: "LIVE ART",
     registerLink: 'https://unstop.com/o/z6hdgCm?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
+    image:srijan ,
     description:
       "ArtFreaks is bringing art to life like never before with a live, on-the-spot creation session! Forget just admiring finished pieces—this is your chance to step into the world of raw creativity and witness masterpieces being born right before your eyes. Experience the thrill of every brushstroke, every burst of color, and every spark of inspiration as it happens. Dive into the magic of art in motion and be part of something truly unforgettable!",
     rulebook:
