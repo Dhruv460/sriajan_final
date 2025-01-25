@@ -44,7 +44,7 @@ const EventsRegisterPage = () => {
   const { category } = useParams();
   const Events = getEventData(category);
 
-  console.log(Events);
+  console.log("Events: ",Events);
   return (
     <div className="py-40">
       <video
@@ -61,7 +61,7 @@ const EventsRegisterPage = () => {
         className="text-6xl text-center pt-0 text-white event-category relative z-10"
         style={{ fontFamily: "ChalkDuster" }}
       >
-        {Events?category.toUpperCase():"Event not found"}
+        {Events ? category.toUpperCase() : "Coming Soon"}
       </h1>
       <div className="flex flex-col items-center h-auto px-8 lg:flex-row lg:px-24 py-40 gap-24 lg:flex-wrap lg:justify-center overflow-y-none">
         {Events?.map((event, idx) => (
