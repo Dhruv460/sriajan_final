@@ -1,8 +1,8 @@
 import React from "react";
 import DevTeamMemberCard from "./DevTeamCardComponent";
 import TeamMemberCard from "./TeamCardComponent";
-import photo from "/AvinashSahu.jpg"
-import photo2 from "/jatin.jpg"
+import photo from "/AvinashSahu.jpg";
+import photo2 from "/jatin.jpg";
 
 function Team() {
   const leadership = [
@@ -93,8 +93,7 @@ function Team() {
     {
       name: "Avinash Sahu",
       department: " ",
-      image:
-        photo , 
+      image: photo,
       // cardBackground:
       //   "https://i.pinimg.com/474x/f2/d8/7f/f2d87f4aea5eac67b67ab1b60aa117fb.jpg",
       team: "Advisor",
@@ -160,7 +159,6 @@ function Team() {
         "https://res.cloudinary.com/dfczrbv7b/image/upload/v1736620461/flc0zraard9sc9vvz6qs.jpg",
       team: "Technical Team",
     },
-    
 
     {
       name: "Shreya Shradha",
@@ -229,8 +227,7 @@ function Team() {
     {
       name: "Jatin Kumar",
       department: "Head",
-      image:
-        photo2,
+      image: photo2,
       team: "Media Team",
     },
 
@@ -285,7 +282,6 @@ function Team() {
       team: "Event Team",
     },
 
-
     {
       name: "Karan Negi",
       department: "Co-Head",
@@ -307,7 +303,6 @@ function Team() {
         "https://res.cloudinary.com/dfczrbv7b/image/upload/v1736619709/audroso3kkmmp1d4uenq.jpg",
       team: "Finance Team",
     },
-
 
     {
       name: "Gayatree Behera",
@@ -479,6 +474,24 @@ function Team() {
         "https://res.cloudinary.com/dfczrbv7b/image/upload/v1736772822/m0ltyinckju9ksti1sbj.jpg",
       linkedin: "https://www.linkedin.com/in/aaradhy-jain",
       instagram: "https://www.instagram.com/aaradhyjain_?igsh=MnZ1N3ViejgzcHY5",
+    },
+    {
+      name: "Soumya Kr. Singh",
+      role: "App Developer",
+      department: "\u00A0",
+      image:
+        "https://res.cloudinary.com/deukzdr70/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1737577511/pic2_iyajxn.jpg",
+      linkedin: "https://www.linkedin.com/in/soumya-kumar-singh-952508287",
+      instagram: " ",
+    },
+    {
+      name: "Khusbu Khemchandani",
+      role: "App Developer",
+      team: "Development Team",
+      image:
+        "https://res.cloudinary.com/dimf24hn7/image/upload/v1737663367/WhatsApp_Image_2025-01-24_at_01.39.01_8aed22b9_achxee.jpg",
+      linkedin: "https://www.linkedin.com/in/khushbu-khemchandani-888136242/",
+      instagram: "https://www.instagram.com/khushbuk0711/",
     },
   ];
   //https://i.pinimg.com/736x/45/c9/d3/45c9d356d30a0dfead45c47463fa3612.jpg

@@ -36,6 +36,8 @@ const getEventData = (category) => {
       return quizEvents;
     case "finearts":
       return fineartsEvents;
+    default:
+      return null;
   }
 };
 const EventsRegisterPage = () => {
@@ -59,7 +61,7 @@ const EventsRegisterPage = () => {
         className="text-6xl text-center pt-0 text-white event-category relative z-10"
         style={{ fontFamily: "ChalkDuster" }}
       >
-        {category.toUpperCase()}
+        {Events?category.toUpperCase():"Event not found"}
       </h1>
       <div className="flex flex-col items-center h-auto px-8 lg:flex-row lg:px-24 py-40 gap-24 lg:flex-wrap lg:justify-center overflow-y-none">
         {Events?.map((event, idx) => (

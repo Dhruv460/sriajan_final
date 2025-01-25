@@ -16,7 +16,7 @@ export default function Card({ value, index }) {
   const letters = ["A", "K", "Q"];
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/events2");
+    navigate(value);
   };
 
   const getImage = () => {
