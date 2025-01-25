@@ -27,7 +27,7 @@ const Card = ({ index, event }) => {
               fill="#ffffff"
             >
             </svg> */}
-            <img src={`${event.Poster}`} alt="" className="bg-contain p-2" />
+            <img src={`${event.image}`} alt="" className="bg-contain p-2" />
             <p className=" text-[#0d0c06] text-3xl font-bold absolute bottom-4 left-3 px-2 py-2 bg-opacity-35 backdrop-blur-lg rounded-lg">
               {event.EventName}
             </p>
