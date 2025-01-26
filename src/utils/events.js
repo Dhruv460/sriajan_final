@@ -30,7 +30,7 @@ export const cinemaEvents = [
   {
     name: "STORY-TELLER",
     registerLink: 'https://unstop.com/o/lNzBeRu?lb=R7BCeSFa&utm_medium=Share&utm_source=shortUrl',
-    image :"https://res.cloudinary.com/dr80y03u3/image/upload/v1737832986/story_teller_d1t5dq.png" ,
+    image : 'https://res.cloudinary.com/dfczrbv7b/image/upload/v1737891551/c5vqzdk8lxvugjfwenux.png' ,
     description:
       "Lights, camera, creativity! Here's your chance to craft a story that could be the next cinematic hit. Whether it’s a heart-pounding thriller, an inspiring drama, or an unforgettable action-adventure, your narrative could soon be on the big screen. Step into the world of film and create the story that captivates audiences worldwide!",
     rulebook:
@@ -39,7 +39,7 @@ export const cinemaEvents = [
   {
     name: "FRAMES OF SRIJAN",
     registerLink: 'https://unstop.com/o/4TUjagS?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image: 'https://res.cloudinary.com/dfczrbv7b/image/upload/v1737821202/lbafh2v3zr1vpota3rwn.png',
+    image: 'https://res.cloudinary.com/dfczrbv7b/image/upload/v1737891546/xnhgrcdtcj03gu0r5o5d.png',
     description:
       "Step into the world of reel making, Frames of srijan invites you to capture the energy, emotions, and magic of Srijan through your lens. Whether it’s behind-the-scenes moments, vibrant performances, or candid expressions, it’s your chance to showcase the festival like never before.Bring your creativity, capture the spark, and create a vlog that tells a story worth watching.",
     rulebook:
@@ -48,7 +48,7 @@ export const cinemaEvents = [
   {
     name: "ONLINE SHORT FILM MAKING COMPETITION",
     registerLink: 'https://unstop.com/o/sLFuf6S?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image: 'https://res.cloudinary.com/dfczrbv7b/image/upload/v1737821257/phu8yetwulgtt1ppwtbb.png',
+    image: 'https://res.cloudinary.com/dfczrbv7b/image/upload/v1737891549/fmfaf05mgf5zrsqjldtg.png',
     description:
       "Got a story that can spark emotions, ignite minds, and set screens ablaze? This is your chance to turn your imagination into a cinematic masterpiece! Step into the spotlight, wow the audience. Gear up, grab your cameras, and let your lens do the talking. The journey from imagination to inspiration starts here!",
     rulebook:
