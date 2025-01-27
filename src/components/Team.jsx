@@ -77,7 +77,7 @@ function Team() {
     {
       name: "Shubham\u00A0Sarkar",
       role: "General Secretary(Cultural)",
-      department: "Dept. of Mechanical Engineering ",
+      department: "Dept. of Applied Geology ",
       image:
         "https://res.cloudinary.com/dfczrbv7b/image/upload/v1737464790/ngsginpojcdrk5lvraub.jpg",
       cardBackground:
