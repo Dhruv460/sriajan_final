@@ -19,28 +19,7 @@ import AccomodationPage from "./pages/AccomodationPage.jsx";
 function App() {
   const audioRef = useRef(null);
 
-  useEffect(() => {
-    // Play the audio when the app loads
-    const playAudio = () => {
-      if (audioRef.current) {
-        audioRef.current.play().catch((err) => {
-          console.warn("Audio autoplay prevented by the browser:", err);
-        });
-      }
-    };
-
-    // Start playing audio on load
-    playAudio();
-
-    // Add event listeners for user interactions to start audio
-    window.addEventListener("click", playAudio);
-    window.addEventListener("mousemove", playAudio);
-
-    return () => {
-      window.removeEventListener("click", playAudio);
-      window.removeEventListener("mousemove", playAudio);
-    };
-  }, []);
+ 
 
   return (
     <div>

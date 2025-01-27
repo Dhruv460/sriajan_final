@@ -61,7 +61,7 @@ const Navbar = () => {
       route: "/merchandise",
     },
     {
-      name: "Accomodation",
+      name: "Accomodation / Registration",
       icon: <ArmchairIcon className="w-5 h-5" />,
       description: "Rest and recharge",
       route: "/accomodation",
