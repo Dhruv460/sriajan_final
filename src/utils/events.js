@@ -1,9 +1,13 @@
 import srijan from "../assets/srijan__.png"
+import fotorush from "../assets/fotorush.png"
+import srijan_through_my_lens from "../assets/srijan through my lens.png"
+import Manipulation_wars from "../assets/man. wars.png"
+
 export const cinemaEvents = [
   {
     name: "SRIJAN THROUGH MY LENS",
     registerLink: 'https://unstop.com/o/Sas8ti1?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:srijan_through_my_lens ,
     description:
       "Transform Moments into Art – Srijan is Your Stage, and Photography is Your Voice!”Join our Instagram Story Challenge to capture Srijan’s essence. Embrace the power of photography to express emotions beyond words and stand a chance to win exciting prizes. Let your camera speak, leaving a lasting impression. Seize the moment—your story deserves to be told!",
     rulebook:
@@ -12,7 +16,7 @@ export const cinemaEvents = [
   {
     name: "FOTORUSH",
     registerLink: 'https://unstop.com/o/786zWrC?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:fotorush ,
     description:
       " A Time-Based Photography Event is an exciting adventure that combines creativity, teamwork,quick thinking, and seeing the world through a new lens. Decode blurred images, find hidden locations, and recreate stunning frames in a race against time. Capture the thrill in this exciting race.Gear up for a day of fun.",
     rulebook:
@@ -21,7 +25,7 @@ export const cinemaEvents = [
   {
     name: "MANIPULATION WARS",
     registerLink: 'https://unstop.com/o/o3jyZaw?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:Manipulation_wars ,
     description:
       "Step into the world of boundless creativity with the Live Photo Manipulation Contest, powered by Adobe Photoshop! Transform a curated set of stock images into a breathtaking masterpiece using only your artistic vision and Photoshop expertise. With no external images allowed, the challenge is to seamlessly blend visuals and craft an inspiring narrative. Push your boundaries, innovate fearlessly, and showcase your imagination and skill under pressure. Are you ready to unleash your creative potential?",
     rulebook:
@@ -138,7 +142,7 @@ export const comedyEvents = [
   {
     name: "ISM’s GOT LATENT",
     registerLink: 'https://unstop.com/o/vuWSgE2?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737968291/qcpm3ncwqdk23j3dqkyu.png" ,
     description:
       "Welcome to the zany world of “ISM’s Got Latent”, a one-of-a-kind talent show where the bizarre and unexpected take center stage! Inspired by the madness of India’s Got Talent, this is your chance to flaunt those quirky, hidden talents—whether it’s mimicking your over-dramatic pados wali bhabhi, belting out “Bol Na Aunty Aaun Kya”, or pulling off a funky lap dance! It’s all about entertaining the judges and audience with your offbeat skills, no matter how unconventional they are.Step into a rollercoaster of excitement, laughter, and jaw-dropping performances!",
     rulebook:
@@ -147,7 +151,7 @@ export const comedyEvents = [
   {
     name: "SAANP TANK",
     registerLink: 'https://unstop.com/o/zqZKb8e?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737968293/bapac0tlofzyaualh5va.png" ,
     description:
       "Introducing Season 2 of SAANP TANK, the ultimate fusion of entrepreneurship and comedy! In this side-splitting parody of legendary Shark Tank, teams step up to pitch absurd and impossible products to our panel of judges. With creativity leading the way,business meets pure hilarity. Keeping a straight face is not an option. Get ready for a rollercoaster of innovation,humour, staggering pitches in the most unpredictable entrepreneurial showdown!",
     rulebook:
@@ -204,7 +208,7 @@ export const literaryEvents = [
   {
     name: "FOLKTWIST",
     registerLink: 'https://unstop.com/o/Nkm98pA?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737968292/ytvnifm3xqfczqijskge.png" ,
     description:
       'where imagination takes the director’s chair! "Ever dreamed of reshaping a movie’s ending? Here’s your chance to rewrite the script and create cinematic magic. Unleash your creativity, share bold ideas, and craft unforgettable twists with fellow movie enthusiasts. It’s not just an event; it’s your stage to reinvent stories and leave your mark. Join us for this thrilling journey and showcase your skills of storytelling with lots of fun included.',
     rulebook:

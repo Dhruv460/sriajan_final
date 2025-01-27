@@ -40,7 +40,7 @@ const Card = ({ index, event }) => {
                 <div className="title0 venue0 flex justify-around my-4">
                   Venue: <strong className="">{event.Venue ? ` ${event.Venue} ` : ` TBD`}</strong>
                 </div>
-                <div className="title0">{event.description.substring(0, 120)} ...</div>
+                <div className="title0">{event.description.substring(0, 200)} ...</div>
                 <div className="title0 mt-2 -mb-2">
                   <Link to={`${event.rulebook}`} target="_blank">
                     <button
