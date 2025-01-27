@@ -16,6 +16,7 @@ import Events2 from "./pages/Events2";
 import sound from "/sound1.mp3";
 import AccomodationPage from "./pages/AccomodationPage.jsx";
 
+
 function App() {
   const audioRef = useRef(null);
 
