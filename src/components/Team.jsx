@@ -467,11 +467,11 @@ function Team() {
       instagram: "https://www.instagram.com/samarth__jindal/",
     },
     {
-      name: "Aaradhy jain ",
+      name: "Aaradhy Jain ",
       role: "Frontend Developer",
       department: "\u00A0",
       image:
-        "https://res.cloudinary.com/dfczrbv7b/image/upload/v1736772822/m0ltyinckju9ksti1sbj.jpg",
+        "https://res.cloudinary.com/dr80y03u3/image/upload/v1737988602/tkwh02lsao4igewtzttr.png",
       linkedin: "https://www.linkedin.com/in/aaradhy-jain",
       instagram: "https://www.instagram.com/aaradhyjain_?igsh=MnZ1N3ViejgzcHY5",
     },

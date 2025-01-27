@@ -7,7 +7,7 @@ export const cinemaEvents = [
   {
     name: "SRIJAN THROUGH MY LENS",
     registerLink: 'https://unstop.com/o/Sas8ti1?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:srijan_through_my_lens ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737987672/mmgkd2eduxlinxgakztv.png" ,
     description:
       "Transform Moments into Art – Srijan is Your Stage, and Photography is Your Voice!”Join our Instagram Story Challenge to capture Srijan’s essence. Embrace the power of photography to express emotions beyond words and stand a chance to win exciting prizes. Let your camera speak, leaving a lasting impression. Seize the moment—your story deserves to be told!",
     rulebook:
@@ -16,7 +16,7 @@ export const cinemaEvents = [
   {
     name: "FOTORUSH",
     registerLink: 'https://unstop.com/o/786zWrC?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:fotorush ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737987671/ruhjbrympvsxdaqkfv6g.png" ,
     description:
       " A Time-Based Photography Event is an exciting adventure that combines creativity, teamwork,quick thinking, and seeing the world through a new lens. Decode blurred images, find hidden locations, and recreate stunning frames in a race against time. Capture the thrill in this exciting race.Gear up for a day of fun.",
     rulebook:
@@ -25,7 +25,7 @@ export const cinemaEvents = [
   {
     name: "MANIPULATION WARS",
     registerLink: 'https://unstop.com/o/o3jyZaw?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:Manipulation_wars ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737987672/ymkgmogzz5wypnlzoxpi.png" ,
     description:
       "Step into the world of boundless creativity with the Live Photo Manipulation Contest, powered by Adobe Photoshop! Transform a curated set of stock images into a breathtaking masterpiece using only your artistic vision and Photoshop expertise. With no external images allowed, the challenge is to seamlessly blend visuals and craft an inspiring narrative. Push your boundaries, innovate fearlessly, and showcase your imagination and skill under pressure. Are you ready to unleash your creative potential?",
     rulebook:
@@ -229,7 +229,7 @@ export const dramaEvents = [
   {
     name: "HOONKAAR",
     registerLink: 'https://unstop.com/o/z5jQyid?lb=R7BCeSFa&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737989181/aklwlznmjvbihrz7hkjo.jpg" ,
     description:
       "Unleash the Roar!Step into a world where passion meets creativity,  With electrifying performances and gripping competitions,Join the revolution, embrace the spirit, and make your voice heard. It is the flagship event of ADC club and a vibrant celebration of innovation and energy, a space where Ideas come alive.Let your roar echo break the silence throughout the  time with Hoonkaar!",
     rulebook:
@@ -238,7 +238,7 @@ export const dramaEvents = [
   {
     name: "EKABHINAY",
     registerLink: 'https://unstop.com/o/UpeYJqd?lb=R7BCeSFa&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737989181/jntz99i51skmrxeoc5bv.jpg" ,
     description:
       "Step onto the stage of brilliance with ADC Club’s Ekabhinay, a celebration of solo acting talent!Let your performance echo the rhythm of creativity and flair. Unleash your creativity, performance speaks volume and leaves a lasting impression.One stage, one soul,Infinite Expressions! Let your voice create a magic,Join us and make the stage your canvas – it’s time to own the spotlight!",
     rulebook:
@@ -271,7 +271,7 @@ export const fashionEvents = [
   {
     name: "PARIDHAAN",
     registerLink: 'https://unstop.com/o/Z64Bls1?lb=2em26DhD&utm_medium=Share&utm_source=shortUrl',
-    image:srijan ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1737986978/ausdv9jppqvhlcrmbsg5.jpg" ,
     description:
       "PARIDHAAN invites all to step into a world where creativity knows no bounds and imagination takes center stage. Teams will channel their artistic vision into extraordinary costumes and performances, all crafted around a unique theme revealed to organizers before the event. The grand finale, ‘Beauty & Geeks,’ will present an exciting clash of glamour and intellect, where participants will redefine beauty and brains. With limitless creativity, teams will bring this captivating theme to life, blending elegance and intellect in a way that’s both bold and unforgettable.",
     rulebook:
