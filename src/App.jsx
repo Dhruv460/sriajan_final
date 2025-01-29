@@ -15,7 +15,7 @@ import Sponsorships from "./pages/Sponsorships";
 import Events2 from "./pages/Events2";
 import sound from "/sound1.mp3";
 import AccomodationPage from "./pages/AccomodationPage.jsx";
-
+import Timeline from "./components/Timeline";
 
 function App() {
   const audioRef = useRef(null);
@@ -37,6 +37,7 @@ function App() {
           <Route path="/events" element={<Deck />} />
           <Route path="/events/:category" element={<EventsRegisterPage />} />
           <Route path="/accomodation" element={<AccomodationPage/>} />
+          <Route path="/acc" element={<Timeline/>} />
         </Routes>
         <div className="z-10">
           <Footer />

@@ -9,7 +9,7 @@ import down from "/down.gif";
 import InfiniteCarousel from "./InfiniteCarousel";
 import diff3 from "/bg23.jpg";
 import sound from "/sound1.mp3";
-
+import Timeline from "./Timeline";
 const Landingpage = () => {
   const [imageSrc, setImageSrc] = useState(rome);
   const [showText, setShowText] = useState(false);
@@ -188,6 +188,7 @@ const Landingpage = () => {
 
         <InfiniteCarousel />
 
+        <Timeline/>
         <p className="text-center md:text-6xl text-amber-950 font-bold text-3xl py-16">
           Coming Soon!
         </p>
