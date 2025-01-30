@@ -148,14 +148,18 @@ const Landingpage = () => {
 
       {/* Second Section */}
       <div
-        className="min-h-screen"
-        style={{
-          backgroundImage: `url(${diff3})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
+  className="min-h-screen"
+  style={{
+    backgroundImage: `url(${diff3})`,
+    backgroundColor: "#e4d6a7",
+    backgroundBlendMode: "multiply",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
+
+        
         <h1
           className="md:text-5xl text-2xl text-center font-serif pt-16"
           style={{
@@ -189,9 +193,7 @@ const Landingpage = () => {
         <InfiniteCarousel />
 
         <Timeline/>
-        <p className="text-center md:text-6xl text-amber-950 font-bold text-3xl py-16">
-          Coming Soon!
-        </p>
+      
       </div>
 
       {/* Background Audio */}

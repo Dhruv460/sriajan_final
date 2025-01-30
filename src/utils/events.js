@@ -280,7 +280,7 @@ export const fashionEvents = [
   {
     name: "CAMPUS PRINCESS",
     registerLink: 'https://unstop.com/p/campus-princess-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1362790',
-    image:srijan ,
+    image:"https://res.cloudinary.com/dr80y03u3/image/upload/v1738133253/qi4wzscxececrd9ey0rb.jpg" ,
     description:
       "Step onto a dynamic stage where your unique aura as a radiant queen in the making takes center stage. This competition celebrates individuality, offering a platform for contestants to showcase their charm, confidence, and self-assurance in a captivating display of talent.",
     rulebook:
