@@ -20,8 +20,6 @@ import Timeline from "./components/Timeline";
 function App() {
   const audioRef = useRef(null);
 
- 
-
   return (
     <div>
       <Router>
@@ -36,8 +34,9 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/events" element={<Deck />} />
           <Route path="/events/:category" element={<EventsRegisterPage />} />
-          <Route path="/accomodation" element={<AccomodationPage/>} />
-          <Route path="/acc" element={<Timeline/>} />
+          <Route path="/accomodation" element={<AccomodationPage />} />
+
+          {/* <Route path="/acc" element={<Timeline />} /> */}
         </Routes>
         <div className="z-10">
           <Footer />
