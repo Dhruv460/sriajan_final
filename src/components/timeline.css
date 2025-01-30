@@ -1,0 +1,27 @@
+/* CSS Styles */
+
+/* .ancient-bg {
+  background-color: #e4d6a7;
+  background-blend-mode: multiply;
+} */
+
+.ancient-border {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.ancient-button {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.ancient-line {
+  background: linear-gradient(to bottom, #8b5e34, #3e2a14);
+}
+
+.ancient-node {
+  background-color: #5c4329;
+}
+
+.ancient-card {
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+}
